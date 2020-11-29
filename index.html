@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <!--fontawesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+        integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+</head>
+
+<link rel="stylesheet" href="./public/css/tmp.css">
+
+
+<body>
+
+    <div id="navbar">
+        <div id="menubar">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div id="messagePanel">
+            <i class="far fa-comment-dots"></i>
+        </div>
+
+        <div id="friendspanel">
+            <i class="fas fa-user-friends"></i>
+        </div>
+    </div>
+    <div id="body">
+        <h3 id="messageWithHeader">ulubulu</h3>
+        <div id="messagContaniner">
+
+            <table id="messagebox">
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD isent">
+                        ebiwbewewybewbiewbfewregerggregergergererergergererreergfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+                <tr class="messageTR">
+                    <td class="messageContentTD usent">
+                        ebiwbewewybgergergergergergreergerrgewbiewbfewfbewibewbewfbweweewyygogyweogewuo
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </div>
+        <form id="shendmsform">
+            <input type="text" id="inputm">
+            <button id="send">send</button>
+        </form>
+    </div>
+    <div id="sidepage">
+        <div id="sidepageLinkers">
+            <div id="myfriends" class="sideLinker">My friends</div>
+            <div id="myRequests" class="sideLinker">Friend requests</div>
+            <div id="mypending" class="sideLinker">My sent friends</div>
+            <div id="others" class="sideLinker">See Also</div>
+        </div>
+        <div id="sidepageItems">
+
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+            <div class="sidepageItem friendItem">abc def</div>
+
+        </div>
+    </div>
+    <div id="sidebar">
+
+        <h3 id=sidebarHeader>Your Conversations</h3>
+        <div id="messageList">
+            <div class="mesgListItm" id="listItem1">
+                <b class="name" id="name1">memelord</b>
+                <div class="d-flex" id="messgbd1">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem2">
+                <b class="name" id="name2">memelord</b>
+                <div class="d-flex" id="messgbd2">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem3">
+                <b class="name" id="name3">memelord</b>
+                <div class="d-flex" id="messgbd3">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem4">
+                <b class="name" id="name1">memelord</b>
+                <div class="d-flex" id="messgbd3">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem4">
+                <b class="name" id="name4">memelord</b>
+                <div class="d-flex" id="messgbd4">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem5">
+                <b class="name" id="name5">memelord</b>
+                <div class="d-flex" id="messgbd5">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem6">
+                <b class="name" id="name6">memelord</b>
+                <div class="d-flex" id="messgbd6">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem7">
+                <b class="name" id="name7">memelord</b>
+                <div class="d-flex" id="messgbd7">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem8">
+                <b class="name" id="name8">memelord</b>
+                <div class="d-flex" id="messgbd8">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem9">
+                <b class="name" id="name9">memelord</b>
+                <div class="d-flex" id="messgbd9">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+            <div class="mesgListItm" id="listItem10">
+                <b class="name" id="name10">memelord</b>
+                <div class="d-flex" id="messgbd10">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+
+            <div class="mesgListItm" id="listItem11">
+                <b class="name" id="name11">memelord</b>
+                <div class="d-flex" id="messgbd11">
+                    <b class="senda">you:</b>
+                    <p class="message">ieuvuerueewfuewufewfhwehewhfewfiewfiewhiewhfewh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./public/js/homepage.js"></script>
+
+</html>
